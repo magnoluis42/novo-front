@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #007bff;
+    height: 6.5rem;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul li a:hover{
+    background-color: #001bff;
+}

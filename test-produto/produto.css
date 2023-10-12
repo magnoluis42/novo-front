@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.produtos{
+    background-color: whitesmoke;
+    border-radius: .4rem;
+    height: 50rem;
+    width: 45rem;
+}
+
+.produtos .imagem{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos .imagem img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos .painel{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos .painel .btn{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.produtos .painel .btn span p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.produtos .painel .descricao p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.produtos .preco h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.valor_total{
+    margin-top: .5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: red;
+}
+
+.produtos .painel .btn img{
+    margin-top: 1rem;
+    border: .1rem solid #ccc;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+}
+
+.produtos button{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: #42b72a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}

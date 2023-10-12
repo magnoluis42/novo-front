@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+
+    <style>
+        :root{
+            font-size: 62.5%;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .teste img{
+            border: 1px solid black;
+            border-radius: 100%;
+            width: 10rem;
+            height: 10rem;
+            cursor: pointer;
+        }
+        #clicks{
+            font-size: 2rem;
+        }
+    </style>
+    
+    <div class="teste">
+        <img src="../icons/carrinho-de-compras.png">
+    </div>
+    <div id="clicks">Cliques: 0</div>
+    <div id="limpar" style="margin: 2rem; background-color: blue; color: aliceblue; font-size: 2rem; cursor: pointer;">Limpar</div>
+
+    <script src="../js/teste.js"></script>
+</body>
+</html>
